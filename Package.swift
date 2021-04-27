@@ -39,7 +39,8 @@ let package = Package(
             ],
                 sources: [
                     "src"
-            ]),
+            ],
+                publicHeadersPath:"src"),
         .target(name: "AnimationTiming",
                 path: "components/AnimationTiming/",
                 sources: [
